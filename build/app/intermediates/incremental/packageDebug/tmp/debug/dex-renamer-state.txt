@@ -1,0 +1,4 @@
+#Thu Sep 26 16:46:21 IST 2019
+base.0=/Users/SENTHIL/Code/Flutter Projects/flutter_dog_app/build/app/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
