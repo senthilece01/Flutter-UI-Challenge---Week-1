@@ -1,16 +1,19 @@
-# flutter_dog_app
+# Flutter UI Challenge Week 1 - Dog App:
 
-A new Flutter application.
+A Flutter UI implementation of a Dog App inspired by [Outcroud’s](https://dribbble.com/outcrowd) design on [Dribble](https://dribbble.com/shots/7192235-Mobile-App-Dog-App)
 
-## Getting Started
+## 📸 Screenshot :
 
-This project is a starting point for a Flutter application.
+<img width="378" alt="Screenshot 2019-09-26 at 11 43 47 PM" src="https://user-images.githubusercontent.com/10756609/65713793-92521280-e0b7-11e9-857e-6548c7d055ad.png">
 
-A few resources to get you started if this is your first Flutter project:
+## Requirements :
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+* Any Operating System (ie. MacOS X, Linux, Windows)
+* Any IDE with Flutter SDK installed (ie. IntelliJ, Android Studio, VSCode etc)
+* A little knowledge of Dart and Flutter A brain to think
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Author(s) :
+
+### Senthil Kumar
+
+## ⭐ Star the repo if you like what you see. ⭐
