@@ -14,7 +14,7 @@ class ProfileDetailsWidget extends StatelessWidget {
             Row(
               children: <Widget>[
                 CircleAvatar(
-                  backgroundImage: AssetImage('assets/dog.png'),
+                  backgroundImage: AssetImage(UtilsImporter().stringUtils.dog),
                   radius: 20,
                 ),
                 SizedBox(width: 10),
@@ -22,18 +22,18 @@ class ProfileDetailsWidget extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-                    Text('Jesscia Smith',
+                    Text(UtilsImporter().stringUtils.name,
                         style: TextStyle(
                             color: UtilsImporter().colorUtils.blackcolor,
-                            fontSize: 12.0,
+                            fontSize: 13.0,
                             fontFamily:
                             UtilsImporter().stringUtils.proxima_nova,
                             fontWeight: FontWeight.w500)),
                     SizedBox(height: 5),
-                    Text('Owner',
+                    Text(UtilsImporter().stringUtils.owner,
                         style: TextStyle(
                             color: UtilsImporter().colorUtils.blackcolor,
-                            fontSize: 12.0,
+                            fontSize: 13.0,
                             fontFamily:
                             UtilsImporter().stringUtils.proxima_nova,
                             fontWeight: FontWeight.w400))
@@ -45,10 +45,10 @@ class ProfileDetailsWidget extends StatelessWidget {
               children: <Widget>[
                 Icon(Icons.location_on, color: UtilsImporter().colorUtils.primarycolor, size: 20),
                 SizedBox(width : 5),
-                Text('1.3km',
+                Text(UtilsImporter().stringUtils.km,
                     style: TextStyle(
                         color: UtilsImporter().colorUtils.primarycolor,
-                        fontSize: 12.0,
+                        fontSize: 13.0,
                         fontFamily: UtilsImporter().stringUtils.proxima_nova,
                         fontWeight: FontWeight.w500))
               ],

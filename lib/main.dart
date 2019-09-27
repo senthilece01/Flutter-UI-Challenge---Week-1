@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_dog_app/screen/home.dart';
+import 'package:flutter_dog_app/screens/home.dart';
 
 void main() => runApp(MyApp());
 

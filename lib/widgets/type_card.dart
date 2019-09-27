@@ -28,7 +28,9 @@ class TypeCardState extends State<TypeCard> {
               TypeCardUI(UtilsImporter().stringUtils.features),
             ],
           ),
-          Icon(Icons.filter_list, color: Colors.black)
+          Image.asset(UtilsImporter().stringUtils.filter,
+              width: 25,
+              height: 20),
         ],
       ),
     );
